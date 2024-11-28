@@ -86,3 +86,8 @@ PRODUCT_COPY_FILES += \
     vendor/pixel-style/audio/ui/camera_focus.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/camera_focus.ogg \
     vendor/pixel-style/audio/ui/reverse_charging_end.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/reverse_charging_end.ogg \
     vendor/pixel-style/audio/ui/reverse_charging_start.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/reverse_charging_start.ogg
+
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.config.notification_sound=Eureka.ogg \
+    ro.config.alarm_alert=Fresh_start.ogg \
+    ro.config.ringtone=Your_new_adventure.ogg
